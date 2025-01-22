@@ -1,3 +1,4 @@
+import os
 from behave import *
 from selenium.common import NoSuchElementException
 
@@ -12,14 +13,16 @@ def step_impl(context):
     context.browser.fullscreen_window()
 
 
-@given('I fill in the username with "{text}"')
-def step_impl(context, text):
-    context.browser.find_element(by='name', value='_username').send_keys(text)
+@given('I fill in the username')
+def step_impl(context):
+    user = os.getenv('USERNAME')
+    context.browser.find_element(by='name', value='_username').send_keys(user)
 
 
-@given('I fill in the password with "{text}"')
-def step_impl(context, text):
-    context.browser.find_element(by='name', value='_password').send_keys(text)
+@given('I fill in the password')
+def step_impl(context):
+    password = os.getenv('PASSWORD')
+    context.browser.find_element(by='name', value='_password').send_keys(password)
 
 
 @when('I press the login button')
