@@ -25,8 +25,6 @@ The following information will be included in the document:
 ## Test object
 The test object is the ITAKA travel agency website. The website is a production website that is used by customers to book travel services.
 
-![Screenshot 2025-01-29 at 14.34.43.png](../../Desktop/Screenshot%202025-01-29%20at%2014.34.43.png)
-
 ## Test object description
 The website is a complex web application with multiple functionalities:
 - Booking flights
@@ -37,9 +35,17 @@ The website is a complex web application with multiple functionalities:
 - User profile management
 - Flight and hotel search 
 - Making payments 
-- Contact Support
-- - Travel blog
+- Contact Support 
+- Travel blog
 - Travel guides
 - Travel agency information
 - Terms and conditions
 
+## Test elements
+Functional testing will be performed with the following test elements:
+- GUI (Advertisements, Buttons, Links, Images, Text, Forms)
+- Logged-in User (My Bookings, User Profile, User Favorites, Payments, User Settings, loyalty program)
+- Main menu (All Inclusive, Last Minute, Summer 2025, Travel Destinations, Favorites, Log in, Language / Currency)
+- Search (Destination, When / How long?, Who?, Departure Airport)
+- Links in the main webpage
+- Buttons in the main webpage
