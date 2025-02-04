@@ -42,6 +42,16 @@ The website is a complex web application with multiple functionalities:
 - Terms and conditions
 
 ## Test elements
+ ITAKA website testing will be executed following a functional and non-functional requirements:
+
+| Functional Testing | Non-Functional Testing |
+| --- | --- |
+| It verifies **the operations and actions** of an application.	| It verifies **the behavior** of an application. |
+| It is based on **requirements** of customer.	| It is based on **expectations** of customer. |
+| It helps to enhance **the behavior** of the application.	| It helps to improve **the performance** of the application. |
+| Functional testing is easy to execute manually.	| It is hard to execute non-functional testing manually. |
+| It tests **what** the product does.	| It describes **how** the product does. |
+
 Functional testing will be performed with the following test elements:
 - GUI (Advertisements, Buttons, Links, Images, Text, Forms)
 - Logged-in User (My Bookings, User Profile, User Favorites, Payments, User Settings, loyalty program)
@@ -49,3 +59,13 @@ Functional testing will be performed with the following test elements:
 - Search (Destination, When / How long?, Who?, Departure Airport)
 - Links in the main webpage
 - Buttons in the main webpage
+
+## Testing scope
+The testing scope includes the following:
+
+| Test Element | Testing Scope                                    | Description |
+| --- |--------------------------------------------------| --- |
+| GUI | Functional testing of various elements in the UI | Test the graphical user interface of the website. |
+| Logged-in User | Functional testing,                              | Testing functionalities available for logged-in user. |
+| Main menu | Navigation                                       | Test the main menu navigation functionalities. |
+    
